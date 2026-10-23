@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <Router>
-      <div className="">
+      <div className=" flex flex-col min-h-screen justify-between bg-zinc-900 ">
         <NavBar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
